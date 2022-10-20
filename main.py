@@ -35,7 +35,7 @@ def main(url):
 
     result_dict = {}
 
-    # Конечный JSON будет содержать топ-5 частей речи
+    # В результате JSON будет содержать топ-5 частей речи
     for number_and_name in part_of_speech_list[:5]:
         result_dict[number_and_name[1]] = number_and_name[0]
 
