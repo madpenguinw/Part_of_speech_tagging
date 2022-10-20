@@ -39,7 +39,9 @@ nltk.download('averaged_perceptron_tagger')
 - Замечание 2
 
 <p>Считаем части речи без разделения на подтипы (например, для имен существительных — не разделяем их на имена собственные).</p>
+
 ---
+
 ### Установка
 *Если используете MAC OS, вводите "python3" вместо "python"*
 ```
@@ -60,6 +62,7 @@ pip install --upgrade pip
 pip install -r requirements.txt
 python main.py
 ```
+---
 
 ### Об авторе
 ```
