@@ -1,7 +1,9 @@
 # Part_of_speech_tagging
-Решить задачу частеречной разметки с использованием библиотеки nltk
+Решена задача частеречной разметки с использованием библиотеки nltk
 
-Дан <a href = https://gist.githubusercontent.com/nzhukov/b66c831ea88b4e5c4a044c952fb3e1ae/raw/7935e52297e2e85933e41d1fd16ed529f1e689f5/A%2520Brief%2520History%2520of%2520the%2520Web.txt>Gist</a> с текстом статьи сэра Тима Бернерса-Ли, оригинал <a href =https://www.w3.org/DesignIssues/TimBook-old/History.html>тут</a> .
+### Условие задачи
+
+Дан <a href = https://gist.githubusercontent.com/nzhukov/b66c831ea88b4e5c4a044c952fb3e1ae/raw/7935e52297e2e85933e41d1fd16ed529f1e689f5/A%2520Brief%2520History%2520of%2520the%2520Web.txt>Gist</a> с текстом статьи сэра Тима Бернерса-Ли, оригинал <a href =https://www.w3.org/DesignIssues/TimBook-old/History.html>тут</a>.
 
 <p>Необходимо с использованием библиотеки nltk решить задачу частеречной разметки и найти 5 (пять) наиболее встречаемых частей речи в этом тексте.</p>
 
@@ -37,3 +39,11 @@ nltk.download('averaged_perceptron_tagger')
 - Замечание 2
 
 <p>Считаем части речи без разделения на подтипы (например, для имен существительных — не разделяем их на имена собственные).</p>
+
+### Об авторе
+```
+developed_by = {'author': 'Mikhail Sokolov',
+                'university': 'ITMO',
+                'telegram': 't.me/lmikhailsokolovl',
+                'is_it_funny': True}
+```
