@@ -39,6 +39,27 @@ nltk.download('averaged_perceptron_tagger')
 - Замечание 2
 
 <p>Считаем части речи без разделения на подтипы (например, для имен существительных — не разделяем их на имена собственные).</p>
+---
+### Установка
+*Если используете MAC OS, вводите "python3" вместо "python"*
+```
+git clone https://github.com/madpenguinw/habr_parser.git
+python -m venv venv
+```
+Затем:
+```
+source venv/Scripts/activate
+```
+или *если используете MAC OS*:
+```
+source venv/bin/activate
+```
+Далее:
+```
+pip install --upgrade pip
+pip install -r requirements.txt
+python main.py
+```
 
 ### Об авторе
 ```
